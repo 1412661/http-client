@@ -1,6 +1,6 @@
 CC = gcc
 LIBS =
-ARGS =
+ARGS = "-std=c99"
 
 all:
 	$(CC) $(ARGS) -c function.c $(LIBS)
